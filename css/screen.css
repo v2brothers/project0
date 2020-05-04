@@ -1,0 +1,11 @@
+h1{
+	text-align: center;
+	color: #53edeb; 
+}
+.b1{
+	background: #ffffff;
+	border: 3px dashed black;
+	width: 55px;
+	hight: 200px;
+	box-size: border-box;	
+}
