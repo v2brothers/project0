@@ -1,12 +1,33 @@
-h1 {
-	color: #000000;
-	margin-bottom: 0;
-	padding-bottom: 0;
-	text-align: center;
+.nav li{
+	list-style: none;
 }
 
-.slogan{
-	text-align: center;
-	margin-top: 0;
-	padding-top: 0;
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear:both;
+}
+
+.group {
+	zoom: 1;
+}
+
+.sidebar{
+	width: 33%;
+	float: left;
+}
+
+.p{
+	padding: 0px;
+	margin-top: 0px 0px;
+}
+
+h1{
+	
+	padding: 0px;
+	margin: 0px;
 }

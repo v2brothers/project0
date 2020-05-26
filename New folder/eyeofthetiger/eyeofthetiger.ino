@@ -9,7 +9,7 @@
 
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN        12 // On Trinket or Gemma, suggest changing this to 1
+#define PIN        2 // On Trinket or Gemma, suggest changing this to 1
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 10 // Popular NeoPixel ring size
@@ -36,7 +36,7 @@ void setup() {
   //pixels.show();
 }
 
-void loop() {
+      void loop(){
 
   pixels.clear();
   pixels.show();
@@ -48,7 +48,7 @@ void loop() {
   delay(500);
   ShowSecondNote(0, 0, 255, 0);
   ShowSecondNote(1, 0, 0, 255);
-  ShowSecondNote(0, 255, 0, 0);
+  ShowSecondNote(0, 13, 255, 239);
   delay(1000);
     ShowSecondNote(0, 0, 255, 0);
   ShowSecondNote(1, 0, 0, 255);
@@ -56,13 +56,12 @@ void loop() {
   delay(1400);
    ShowSecondNote(0, 0, 255, 0);
   ShowSecondNote(1, 0, 0, 255);
-  for(int i=0; i<10;i++){
+  for(int i=0; i<10;i++)
   pixels.setPixelColor(i, 255, 0, 0);
   pixels.show();
-  }
   delay(4000);
   
-}
+  }
 
 void showAlternateLed(int startNum, int r, int g, int b)
 {

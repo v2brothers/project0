@@ -1,0 +1,36 @@
+.input {
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+html {
+    color: #db0000;
+    background: #000000;
+    align-content: center
+}
+
+#off:hover{
+    border: 7px solid #cf1f19;
+}
+
+#on:hover{
+    border: 7px solid #18db12;
+}
+
+#off, #on{
+    width: 100%;
+    height: 50px;
+    margin: 10px 10px;
+}
+.drop_down {
+    width: 200px;
+}
+
+.type {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+legend {
+    color: #db0000;
+}
